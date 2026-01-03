@@ -54,6 +54,7 @@ public class Task : MonoBehaviour
             obj.transform.position = new Vector3(0f, 0f, 0f);
             _descriptionInputField = obj.GetComponent<TMP_InputField>();
             obj.GetComponent<TMP_InputField>().onEndEdit.AddListener(delegate { DescriptionChange(); });
+            obj.GetComponent<RectTransform>().localScale = new Vector3(2, 2, 4);
         }
     }
     
