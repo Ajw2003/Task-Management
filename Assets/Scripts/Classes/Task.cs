@@ -61,9 +61,8 @@ public class Task : MonoBehaviour
     {
         if (_nameText != null && _nameInputField != null)
             _nameText.text = _nameInputField.text;
-        _nameInputField.gameObject.SetActive(false);
         _nameObject.SetActive(true);
-
+        _nameInputField.gameObject.SetActive(false);
     }
     // change the name text, disable the input field and enable the text upon edit
 
@@ -71,8 +70,8 @@ public class Task : MonoBehaviour
     {
         if (_descriptionText != null && _descriptionInputField != null)
             _descriptionText.text = _descriptionInputField.text;
-        _descriptionInputField.gameObject.SetActive(false); 
         _descriptionObject.SetActive(true);
+        _descriptionInputField.gameObject.SetActive(false); 
     }
     // change the description text, disable the input field and enable the text upon edit
 

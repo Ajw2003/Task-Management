@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6465833505031053732}
   - component: {fileID: 3632779489958282596}
+  - component: {fileID: 7137095897424374196}
   m_Layer: 0
   m_Name: TaskObject
   m_TagString: Untagged
@@ -24,7 +25,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 324622604866141590}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.75, y: 0.75, z: 0.75}
   m_ConstrainProportionsScale: 0
@@ -51,5 +52,31 @@ MonoBehaviour:
   taskName: JosephMama
   taskDescription: joe mama
   completed: 0
-  container: {fileID: 558314424813752349, guid: c07bd851aef77834eaa5cbfb59cc9c59, type: 3}
-  inputField: {fileID: 5538977301122540265, guid: 9dc5e4a088347a44ea63800b4ffe9d87, type: 3}
+  container: {fileID: 3832664588788878596, guid: c63d343210a231745b31105406fe6834, type: 3}
+  inputField: {fileID: 207947188803239965, guid: ac86ec3685e382044960d3b54ed0e82a, type: 3}
+--- !u!114 &7137095897424374196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 324622604866141590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.VerticalLayoutGroup
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 0
+  m_Spacing: 0
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 0
+  m_ChildControlHeight: 0
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
