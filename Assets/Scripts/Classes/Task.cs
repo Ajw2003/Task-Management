@@ -77,11 +77,15 @@ public class Task : MonoBehaviour
     {
         _nameInputField.gameObject.SetActive(true);
         _nameObject.SetActive(false);
+        _nameInputField.Select();
+        _nameInputField.ActivateInputField();
     }
 
     public void DescriptionClicked()
     {
         _descriptionInputField.gameObject.SetActive(true); 
         _descriptionObject.SetActive(false);
+        _descriptionInputField.Select();
+        _descriptionInputField.ActivateInputField();
     }
 }
